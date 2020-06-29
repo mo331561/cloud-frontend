@@ -923,10 +923,10 @@ function SettingsController($scope, SharedService) {
     // Initialized for an unauthenticated user exploring the current bucket
     // TODO: calculate current bucket and initialize below
     $scope.settings = {
-        auth: 'auth', region: '', bucket: '', entered_bucket: 'serverless-s3-s3bucket-1csut04zurq08', selected_bucket: '', view: 'folder', delimiter: '/', prefix: '',
+        auth: 'auth', region: '', bucket: '', entered_bucket: 'upload-image-to-cloud-s3bucket-1pfkdiq7leq33', selected_bucket: '', view: 'folder', delimiter: '/', prefix: '',
     };
     $scope.settings.mfa = { use: 'no', code: '' };
-    $scope.settings.cred = { accessKeyId: 'AKIARMWDJ2U64EH4MZLS', secretAccessKey: '', sessionToken: '' };
+    $scope.settings.cred = { accessKeyId: 'AKIA562273GSRCNKGK64', secretAccessKey: '', sessionToken: '' };
     $scope.settings.stscred = null;
 
     // TODO: at present the Settings dialog closes after credentials have been supplied
